@@ -1,0 +1,20 @@
+[Default Applications]
+application/yaml=org.xfce.mousepad.desktop
+application/toml=org.xfce.mousepad.desktop
+text/julia=org.xfce.mousepad.desktop
+image/jpeg=org.xfce.ristretto.desktop
+application/pdf=atril.desktop
+video/mp4=io.github.celluloid_player.Celluloid.desktop
+text/x-scheme=org.xfce.mousepad.desktop
+text/plain=org.xfce.mousepad.desktop
+
+[Added Associations]
+application/yaml=dev.zed.Zed.desktop;org.xfce.mousepad.desktop;
+application/toml=org.xfce.mousepad.desktop;
+text/julia=org.xfce.mousepad.desktop;
+image/png=dev.noctalia.Noctalia.Annotator.desktop;
+image/jpeg=org.xfce.ristretto.desktop;
+application/pdf=atril.desktop;
+video/mp4=io.github.celluloid_player.Celluloid.desktop;
+text/x-scheme=org.xfce.mousepad.desktop;
+text/plain=org.xfce.mousepad.desktop;
