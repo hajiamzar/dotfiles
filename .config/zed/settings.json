@@ -10,7 +10,7 @@
   "agent": {
     "default_model": {
       "provider": "google",
-      "model": "gemini-3.5-flash",
+      "model": "gemini-3.5-flash-lite",
       "enable_thinking": true,
       "effort": "minimal"
     },
