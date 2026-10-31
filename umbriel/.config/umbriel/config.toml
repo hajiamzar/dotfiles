@@ -16,7 +16,7 @@
 files = []
 
 [include.optional]
-files = ["noctalia.toml"]
+files = ["cursor.toml", "noctalia.toml"]
 
 # ==============================================================================
 # General
