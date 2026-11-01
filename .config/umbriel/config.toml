@@ -13,7 +13,7 @@
 # Optional split configuration
 # https://docs.noctalia.dev/umbriel/configuration/#include
 [include]
-files = []
+files = ["outputs.toml"]
 
 [include.optional]
 files = ["cursor.toml", "noctalia.toml"]
