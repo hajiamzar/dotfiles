@@ -7,10 +7,22 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "gutter": {
+    "git_gutter_width": "default"
+  },
+  "terminal": {
+    "font_size": 12.0
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
   "agent": {
+    "default_profile": "ask",
     "default_model": {
       "provider": "google",
-      "model": "gemini-3.5-flash-lite",
+      "model": "gemini-3.5-flash",
       "enable_thinking": true,
       "effort": "minimal"
     },
@@ -27,10 +39,10 @@
     "anthropic_retention": false
   },
   "ui_font_size": 16,
-  "buffer_font_size": 15,
+  "buffer_font_size": 12.0,
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "Gruvbox Light",
-    "dark": "Gruvbox Dark",
+    "dark": "Gruvbox Dark Hard",
   },
 }

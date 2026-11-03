@@ -4,3 +4,7 @@
 
 [output."LG Display 0x0563 Unknown"]
 position = [0, 0]
+
+[output."Stargate Technology 0x0000 Unknown"]
+mode = "1920x1080@60"
+position = [0, 0]
