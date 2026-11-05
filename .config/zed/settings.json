@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "git_panel": {
+    "dock": "left"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
   "gutter": {
     "git_gutter_width": "default"
   },
@@ -19,12 +25,16 @@
     "dark": "Zed (Default)"
   },
   "agent": {
-    "default_profile": "ask",
+    "threads_sidebar": {
+      "position": "right"
+    },
+    "dock": "right",
+    "default_profile": "write",
     "default_model": {
-      "provider": "google",
-      "model": "gemini-3.5-flash",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
       "enable_thinking": true,
-      "effort": "minimal"
+      "effort": "low"
     },
     "favorite_models": [],
     "model_parameters": []
@@ -42,7 +52,7 @@
   "buffer_font_size": 12.0,
   "theme": {
     "mode": "dark",
-    "light": "Gruvbox Light",
-    "dark": "Gruvbox Dark Hard",
+    "light": "Gruvbox Light Hard",
+    "dark": "Gruvbox Material",
   },
 }
