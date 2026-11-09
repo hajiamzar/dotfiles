@@ -1,6 +1,7 @@
 [Default Applications]
 application/yaml=org.xfce.mousepad.desktop
 application/toml=org.xfce.mousepad.desktop
+audio/mpeg=io.github.celluloid_player.Celluloid.desktop
 text/julia=org.xfce.mousepad.desktop
 image/jpeg=org.xfce.ristretto.desktop
 image/png=org.xfce.ristretto.desktop
